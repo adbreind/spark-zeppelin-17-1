@@ -3,14 +3,14 @@
 ### Materials and setup instructions
 
 1. Download Apache Zeppelin version 0.7 with "all" bundled interpreters. Although the following link looks like a direct link to the package, it actually opens the Apache download page, where you can choose a mirror:  http://www.apache.org/dyn/closer.cgi/zeppelin/zeppelin-0.7.0/zeppelin-0.7.0-bin-all.tgz
-2. Install ... which should be as simple as unzipping this archive.
+2. Install ... which should be as simple as unzipping the archive you just downloaded. This version of Zeppelin includes an embedded install of Apache Spark 2.1, which is tested to work with the class notebooks.
 3. Test it out! 
-	* cd into the folder where you unpacked Zeppelin
+	* `cd` into the folder where you unpacked Zeppelin
 	* If you run `ls` you should see the `bin` folder
 	* on MacOS/Linux, run `bin/zeppelin-daemon.sh start`
 		* Zeppelin should run on Windows with minor changes (e.g., `zeppelin.cmd`), but YMMV -- if I have some extra time, I'll test it out and update this doc with my learnings
 	* Point your browser to `localhost:8080` and you should see Zeppelin running!
-		* occasionally it seems to require and extra few seconds, refreshes, or even clearing browser cache, moreso than other webapps, not sure why, but don't sweat it
+		* occasionally it seems to require an extra few seconds, refreshes, or even clearing browser cache, moreso than other webapps, not sure why, but don't sweat it
 	* Click "create new note" to start a new notebook
 		* Give it a name (like "Test"); the default interpreter should say "Spark" and you can leave that as is, and click "Create Note"
 	* In the first notebook cell, type in `1 + 1` and hit shift + enter
