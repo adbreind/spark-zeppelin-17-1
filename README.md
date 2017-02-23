@@ -8,7 +8,7 @@
 	* `cd` into the folder where you unpacked Zeppelin
 	* If you run `ls` you should see the `bin` folder
 	* on MacOS/Linux, run `bin/zeppelin-daemon.sh start`
-		* Zeppelin should run on Windows with minor changes (e.g., `zeppelin.cmd`), but YMMV -- if I have some extra time, I'll test it out and update this doc with my learnings
+		* Zeppelin should run on Windows with minor changes (e.g., `zeppelin.cmd`), but your mileage may vary -- if I have some extra time, I'll test it out and update this doc with my learnings
 	* Point your browser to `localhost:8080` and you should see Zeppelin running!
 		* occasionally it seems to require an extra few seconds, refreshes, or even clearing browser cache, moreso than other webapps, not sure why, but don't sweat it
 	* Click "create new note" to start a new notebook
