@@ -8,7 +8,13 @@
 	* `cd` into the folder where you unpacked Zeppelin
 	* If you run `ls` you should see the `bin` folder
 	* on MacOS/Linux, run `bin/zeppelin-daemon.sh start`
-		* Zeppelin should run on Windows with minor changes (e.g., `zeppelin.cmd`), but your mileage may vary -- if I have some extra time, I'll test it out and update this doc with my learnings
+		* __UPDATE FOR WINDOWS USERS__:
+			* In theory, Zeppelin should run on Windows with minor changes (e.g., `zeppelin.cmd`), but your mileage may vary
+			* Zeppelin claims support on Win 7 SP 1, but I have not tried that
+			* I __did__ try it on Windows 10 (more or less latest Microsoft build) and it did *not* work out of the box
+			* Of course, it's quite possible that with some monkeying around it can be made to work on Win 10
+			* __HOWEVER__ my recommendation would be to install a Linux VM and run it there: free, easy, definitely works, and your "real" Spark work will almost certainly be on Linux anyway
+			* Easiest path: Grab free VMWare or VirtualBox, install ubuntu-16.04.2-desktop-amd64, add a JRE with `sudo apt install openjdk-8-jre-headless` and then just unzip Zeppelin and you're all set.
 	* Point your browser to `localhost:8080` and you should see Zeppelin running!
 		* occasionally it seems to require an extra few seconds, refreshes, or even clearing browser cache, moreso than other webapps, not sure why, but don't sweat it
 	* Click "create new note" to start a new notebook
