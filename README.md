@@ -15,6 +15,7 @@
 			* Of course, it's quite possible that with some monkeying around it can be made to work on Win 10
 			* __HOWEVER__ my recommendation would be to install a Linux VM and run it there: free, easy, definitely works, and your "real" Spark work will almost certainly be on Linux anyway
 			* Easiest path: Grab free VMWare or VirtualBox, install ubuntu-16.04.2-desktop-amd64, add a JRE with `sudo apt install openjdk-8-jre-headless` and then just unzip Zeppelin and you're all set.
+				* Make sure you give this VM a good chunk of resources -- I'd recommend 8 GB RAM and 2 CPU cores if you have them
 	* Point your browser to `localhost:8080` and you should see Zeppelin running!
 		* occasionally it seems to require an extra few seconds, refreshes, or even clearing browser cache, moreso than other webapps, not sure why, but don't sweat it
 	* Click "create new note" to start a new notebook
