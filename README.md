@@ -2,7 +2,7 @@
 
 ### Materials and setup instructions
 
-1. Download Apache Zeppelin version 0.7 with "all" bundled interpreters. Although the following link looks like a direct link to the package, it actually opens the Apache download page, where you can choose a mirror:  http://www.apache.org/dyn/closer.cgi/zeppelin/zeppelin-0.7.0/zeppelin-0.7.0-bin-all.tgz
+1. Download Apache Zeppelin version 0.7 with "all" bundled interpreters. Although the following link looks like a direct link to the package, it actually opens the Apache download page, where you can choose a mirror:  http://www.apache.org/dyn/closer.cgi/zeppelin/zeppelin-0.7.2/zeppelin-0.7.2-bin-all.tgz
 2. Install ... which should be as simple as unzipping the archive you just downloaded. This version of Zeppelin includes an embedded install of Apache Spark 2.1, which is tested to work with the class notebooks.
 3. Test it out! 
 	* `cd` into the folder where you unpacked Zeppelin
