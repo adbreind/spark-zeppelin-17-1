@@ -7,7 +7,7 @@
 3. Test it out! 
 	* `cd` into the folder where you unpacked Zeppelin
 	* If you run `ls` you should see the `bin` folder
-	* on ~~MacOS/~~Linux, run `bin/zeppelin-daemon.sh start`
+	* on ~~MacOS/~~ Linux, run `bin/zeppelin-daemon.sh start`
 		* __UPDATE For MacOS USERS__:
 			* There is a known bug that makes Zeppelin run extremely(!) slowly on MacOS (https://issues.apache.org/jira/browse/ZEPPELIN-2948) so, while it does work, I strongly recommend using Linux instead
 		* __UPDATE FOR WINDOWS USERS__:
